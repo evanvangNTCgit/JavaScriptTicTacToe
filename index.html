@@ -7,28 +7,31 @@
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="game">
+    <div id="upperDiv">
+    <h1 id="whosTurnHeader">X Turn</h1>
+    </div>
     <div id="tictactoeDiv">
       <table id="tictactoeTable">
         <tr>
           <div id="topRow">
-            <th><img src="o-300x300.png" onclick="helloWorld(this)"/></th>
-            <th><img src="x.png" /></th>
-            <th><img src="x.png" /></th>
+            <th>1<img onclick="changeImage(this)"/></th>
+            <th>2<img onclick="changeImage(this)"/></th>
+            <th>3<img onclick="changeImage(this)"/></th>
           </div>
         </tr>
         <tr>
           <div id="middleRow">
-            <th><img src="o-300x300.png" /></th>
-            <th><img src="x.png" /></th>
-            <th><img src="x.png" /></th>
+            <th>4<img onclick="changeImage(this)"/></th>
+            <th>5<img onclick="changeImage(this)"/></th>
+            <th>6<img onclick="changeImage(this)"/></th>
           </div>
         </tr>
         <tr>
           <div id="bottomRow">
-            <th><img src="o-300x300.png" /></th>
-            <th><img src="x.png" /></th>
-            <th><img src="x.png" /></th>
+            <th>7<img onclick="changeImage(this)"/></th>
+            <th>8<img onclick="changeImage(this)"/></th>
+            <th>9<img onclick="changeImage(this)"/></th>
           </div>
         </tr>
       </table>
